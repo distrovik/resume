@@ -1,0 +1,327 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#side-profile {
+    background-color: rgb(0, 0, 70);
+    width: 350px;
+    height: 1681px;
+    position: absolute;
+    color: white;
+}
+
+/*Intro*/
+.profile {
+    margin: 30px 0 0 0;
+}
+
+.DP {
+    margin: 20px 75px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 10% 20%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.name {
+    margin: 10px 10px;
+    padding: 0px 40px;
+}
+
+.name h1 {
+    margin: 0;
+    padding: 0 5px;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.name p {
+    margin: 5px 0 0 5px;
+}
+
+.name .SE {
+    margin: 0 0 0 5px;
+}
+
+/*Intro*/
+
+.side-hr {
+    margin: 35px 0px 35px 70px;
+    height: 1px;
+    width: 280px;
+    text-align: left;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}
+
+/* Technical-Skills */
+.technical-skills {
+    margin: 10px;
+    padding: 0 40px;
+}
+
+.technical-skills h1 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.technical-skills h4 {
+    margin: 25px 0 0 0
+}
+
+.technical-skills p {
+    margin: 5px 0;
+
+}
+
+/* Technical-Skills */
+
+/* Soft-Skills */
+.soft-skills {
+    margin: 10px;
+    padding: 0 40px;
+}
+
+.soft-skills h1 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.soft-skills h4 {
+    margin: 25px 0 0 0
+}
+
+.soft-skills p {
+    margin: 5px 0;
+
+}
+
+/* Soft-Skills */
+
+/* Language */
+.language {
+    margin: 10px;
+    padding: 0 40px;
+}
+
+.language h1 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.language h4 {
+    margin: 25px 0 0 0;
+}
+
+.language p {
+    margin: 5px 0;
+
+}
+
+/* Language */
+
+/* Contant */
+.contact {
+    margin: 10px;
+    padding: 0 40px;
+}
+
+.contact h1 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.contact h4 {
+    margin: 25px 0 0 0;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+
+
+/* Contant */
+
+/* Right Panel */
+
+#resume-panel {
+    margin: 50px 0 0 0;
+    width: 800px;
+    position: absolute;
+    left: 400px;
+}
+
+#resume-panel span {
+    font-weight: 100;
+}
+
+
+.timeline-middle {
+    margin: 2px 0 0 0;
+    position: absolute;
+    left: 10px;
+    height: 700px;
+    width: 2px;
+    background-color: rgba(200, 200, 200, .9);
+}
+
+.timeline-round {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+}
+
+.timeline-round-2 {
+    position: absolute;
+    top: 183px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+}
+
+.timeline-round-3 {
+    position: absolute;
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+}
+
+.resume-hr {
+    margin-top: 35px;
+    height: 2px;
+    width: 70%;
+    text-align: left;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}
+
+.resume-header {
+    display: flex;
+}
+
+.about-me p {
+    padding: 0 70px 0 0px;
+}
+
+.resume-sub {
+    display: flex;
+    margin: 0 0 50px 0;
+}
+
+.resume-title {
+    width: 150px;
+    margin: 0 0 0 25px;
+}
+
+.resume-title h4 {
+    margin: 0;
+}
+
+.resume-title h3 {
+    margin: 0 0 2px 5px;
+}
+
+.resume-p {
+    width: 550px;
+    margin: 0 0 0 20px;
+}
+
+.resume-p h3 {
+    margin: 0 0 2px 5px;
+}
+
+.resume-p h4 {
+    margin: 0 0 2px 5px;
+}
+
+.resume-p p {
+    margin: 0;
+}
+
+.resume-p ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.timeline-middle-edu {
+    margin: 2px 0 0 0;
+    position: absolute;
+    left: 10px;
+    height: 240px;
+    width: 2px;
+    background-color: rgba(200, 200, 200, .9);
+}
+
+.timeline-round-edu {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+}
+
+.timeline-round-2-edu {
+    position: absolute;
+    top: 165px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+}
+
+.timeline-middle-ref {
+    margin: 2px 0 0 0;
+    position: absolute;
+    left: 10px;
+    height: 116px;
+    width: 2px;
+    background-color: rgba(200, 200, 200, .9);
+}
+
+.timeline-round-ref {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+}
+
+.timeline-round-2-ref {
+    position: absolute;
+    top: 116px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+}
