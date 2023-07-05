@@ -4,14 +4,52 @@ html {
 
 body {
     margin: 0;
+    background-color: rgb(255, 242, 225);
 }
 
+a {
+    color: rgb(255, 119, 119);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+  }
+
+ul li::before {
+    color: rgb(255, 242, 225);
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+
 #side-profile {
+    padding-top: 50px;
     background-color: rgb(0, 0, 70);
     width: 350px;
-    height: 1681px;
+    height: 1800px;
     position: absolute;
-    color: white;
+    color: rgb(255, 242, 225);
+    border: 2px solid rgb(255, 242, 225);
+    border-right-style: hidden;
 }
 
 /*Intro*/
@@ -20,17 +58,18 @@ body {
 }
 
 .DP {
-    margin: 20px 75px;
+    margin-left: 90px;
+    margin-bottom: 50px;
     width: 150px;
     height: 150px;
     object-fit: cover;
     object-position: 10% 20%;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 242, 225);
 }
 
 .name {
-    margin: 10px 10px;
+    margin: 0px 10px;
     padding: 0px 40px;
 }
 
@@ -57,8 +96,8 @@ body {
     width: 280px;
     text-align: left;
     border-width: 0;
-    color: gray;
-    background-color: gray;
+    color: rgb(255, 242, 225);
+    background-color: rgb(255, 242, 225);
 }
 
 /* Technical-Skills */
@@ -81,6 +120,9 @@ body {
 
 }
 
+.technical-skills li {
+    color: rgb(255, 119, 119);
+}
 /* Technical-Skills */
 
 /* Soft-Skills */
@@ -103,6 +145,10 @@ body {
 
 }
 
+.soft-skills li {
+    color: rgb(255, 119, 119);
+}
+
 /* Soft-Skills */
 
 /* Language */
@@ -122,7 +168,11 @@ body {
 
 .language p {
     margin: 5px 0;
+    color: rgb(255, 119, 119);
+}
 
+.language li {
+    color: rgb(255, 119, 119);
 }
 
 /* Language */
@@ -153,14 +203,18 @@ body {
 /* Right Panel */
 
 #resume-panel {
-    margin: 50px 0 0 0;
+    margin: 0;
+    padding-top: 50px;
     width: 800px;
+    height: 1800px;
     position: absolute;
     left: 400px;
+    border: 2px solid rgb(0, 0, 70);
+    border-left-style: none;
 }
 
 #resume-panel span {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 
@@ -170,7 +224,7 @@ body {
     left: 10px;
     height: 700px;
     width: 2px;
-    background-color: rgba(200, 200, 200, .9);
+    background-color: rgb(0, 0, 70);
 }
 
 .timeline-round {
@@ -180,29 +234,29 @@ body {
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: rgba(200, 200, 200, 1);
+    background: rgb(255, 119, 119);
     border-radius: 50%;
 }
 
 .timeline-round-2 {
     position: absolute;
-    top: 183px;
+    top: 165px;
     left: 50%;
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: rgba(200, 200, 200, 1);
+    background: rgb(255, 119, 119);
     border-radius: 50%;
 }
 
 .timeline-round-3 {
     position: absolute;
-    top: 520px;
+    top: 502px;
     left: 50%;
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: rgba(200, 200, 200, 1);
+    background: rgb(255, 119, 119);
     border-radius: 50%;
 }
 
@@ -212,12 +266,18 @@ body {
     width: 70%;
     text-align: left;
     border-width: 0;
-    color: gray;
-    background-color: gray;
+    color: rgb(0, 0, 70);
+    background-color: rgb(0, 0, 70);
 }
 
 .resume-header {
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-me h3 {
+    color: rgb(0, 0, 70);
 }
 
 .about-me p {
@@ -232,6 +292,7 @@ body {
 .resume-title {
     width: 150px;
     margin: 0 0 0 25px;
+    color: rgb(0, 0, 70);
 }
 
 .resume-title h4 {
@@ -245,6 +306,7 @@ body {
 .resume-p {
     width: 550px;
     margin: 0 0 0 20px;
+    color: rgb(0, 0, 70);
 }
 
 .resume-p h3 {
@@ -270,7 +332,7 @@ body {
     left: 10px;
     height: 270px;
     width: 2px;
-    background-color: rgba(200, 200, 200, .9);
+    background-color: rgb(0, 0, 70);
 }
 
 .timeline-round-edu {
@@ -280,7 +342,7 @@ body {
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: rgba(200, 200, 200, 1);
+    background: rgb(255, 119, 119);
     border-radius: 50%;
 }
 
@@ -291,7 +353,7 @@ body {
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: rgba(200, 200, 200, 1);
+    background: rgb(255, 119, 119);
     border-radius: 50%;
 }
 
@@ -301,7 +363,7 @@ body {
     left: 10px;
     height: 116px;
     width: 2px;
-    background-color: rgba(200, 200, 200, .9);
+    background-color: rgb(0, 0, 70);
 }
 
 .timeline-round-ref {
@@ -311,7 +373,7 @@ body {
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: rgba(200, 200, 200, 1);
+    background: rgb(255, 119, 119);
     border-radius: 50%;
 }
 
@@ -322,6 +384,6 @@ body {
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: rgba(200, 200, 200, 1);
+    background: rgb(255, 119, 119);
     border-radius: 50%;
 }
